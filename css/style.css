@@ -10,11 +10,37 @@ header {
 }
 
 #brand-name {
+
     display: inline-block;
-    background-color: tomato;
+
 }
 
 #navigation {
+
     display: inline-block;
-    background-color: tomato;
+
+}
+
+#navigation li {
+
+    display: inline-block;
+    
+}
+
+
+#navigation li a {
+
+    margin: 5px;
+    padding: 5px 20px;
+
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    
+    background-color: rgb(128, 166, 236);
 }
