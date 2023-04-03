@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 140px;
+
+    background-color: cornflowerblue;
+}
+
+#brand-name {
+    display: inline-block;
+    background-color: tomato;
+}
+
+#navigation {
+    display: inline-block;
+    background-color: tomato;
+}
