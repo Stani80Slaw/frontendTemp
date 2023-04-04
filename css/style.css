@@ -1,23 +1,55 @@
+/* 
+Timberwolf (beige)  -   #E4DFDA
+Cerulean (blue)     -   #4281A4
+Rich black          -   #011627
+Ecru (dark beige)   -   #D4B483
+Space cadet (dark)  -   #272A3F
+
+Exo 800 (title)         font-family: 'Exo', sans-serif;
+Allerta 400 (subtitle)  font-family: 'Allerta', sans-serif;
+Amiko 400/600 (main)    font-family: 'Amiko', sans-serif;
+*/
+
 * {
     margin: 0;
     padding: 0;
 }
 
+html, body {
+    font-family: 'Amiko', sans-serif;
+}
+
+h2 {
+    font-family: 'Allerta', sans-serif;
+    color: #272A3F;
+}
+
 header {
     min-height: 140px;
+    position: relative;
 
-    background-color: cornflowerblue;
+    background-color: #272A3F;
 }
 
 #brand-name {
 
     display: inline-block;
+    margin-top: 28px;
+    margin-left: 28px;
+
+    font-family: 'Exo', sans-serif;
+    font-size: 4em;
+
+    color: #E4DFDA;
 
 }
 
 #navigation {
 
     display: inline-block;
+    position: absolute;
+    bottom: 12px;
+    right: 0;
 
 }
 
@@ -34,13 +66,37 @@ header {
     padding: 5px 20px;
 
     color: white;
-    border: 1px solid white;
-    border-radius: 7px;
+    border-bottom: 1px solid white;
+    /* border-radius: 7px; */
     
     text-decoration: none;
 }
 
 #navigation li a:hover {
+
+    background-color: #E4DFDA;
+    color: #272A3F;
     
-    background-color: rgb(128, 166, 236);
+}
+
+#home {
+    min-height: calc(100vh - 140px);
+
+    padding: 10px 0;
+
+    background-color: #4281A4;
+    color: #D4B483;
+}
+
+#home .container {
+
+    height: 300px;
+
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 15px;
+
+    background-color: #E4DFDA;
+    border: 2px solid #272A3F;
+    border-radius: 5px;
 }
